@@ -1,0 +1,44 @@
+.wrap {
+  width: 100vw;
+  height: 100vh;
+  background-image: linear-gradient(
+    217deg,
+    #6fb9f8,
+    #3daaf85e,
+    #49d3fc1a,
+    #3fd3ff00
+  );
+
+  .header {
+    width: 100%;
+    height: 200px;
+    background: url('//s.yezgea02.com/1616032174786/cryptocurrency.png')
+      no-repeat center/120%;
+  }
+  .body {
+    display: flex;
+    color: #597fe7;
+    align-items: center;
+    padding: 30px 24px 10px 24px;
+
+    :global {
+      .adm-tabs {
+        .adm-tabs-header {
+          font-weight: 600;
+          .adm-tabs-tab-active {
+            font-size: 20px;
+          }
+        }
+        .adm-tabs-content {
+          .adm-list-body {
+            background-color: transparent;
+            margin-bottom: 20px;
+          }
+        }
+      }
+    }
+    .vcode {
+      width: 100px;
+    }
+  }
+}
